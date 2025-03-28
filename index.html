@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wish Sim</title>
+    <link rel="stylesheet" href="wish.css">
+    <script src="wish.js" defer></script>
+</head>
+<body>
+    
+    <div class="cont">
+    <h1><span>Splendor</span> Of Tranquil Waters</h1>
+    
+   <!-- Loading Screen -->
+<div id="loadingScreen">
+    <div id="progressContainer">
+        <progress id="loadingProgress" value="0" max="100"></progress>
+    </div>
+</div>
+
+<!-- Your Action Section (Videos) -->
+<div class="action">
+    <img id="banner" src="banner.png" alt="Furina Banner">
+    <video id="w1" src="3star.mp4" style="width: 100vw; height: 100vh"></video>
+    <video id="w1four" src="4star1pull.mp4" style="width: 100vw; height: 100vh"></video>
+    <video id="w1five" src="5star1pull.mp4" style="width: 100vw; height: 100vh"></video>
+    <video id="w1four10" src="4star10pulls.mp4" style="width: 100vw; height: 100vh"></video>
+    <video id="w1five10" src="5star10pulls.mp4" style="width: 100vw; height: 100vh"></video>
+</div><br>
+    
+    
+    <div class="btn-cont">
+    <button id="wish1">Wish x1</button>
+    <button id="wish10">Wish x10</button>
+    </div>
+    
+    </div>
+  
+    <div class="result">
+        
+        <h2 id="pityCounter"> Current Pity = 0</h2>
+        <ol id="wishResult">
+        
+        </ol>
+    </div> 
+</body>
+</html>
