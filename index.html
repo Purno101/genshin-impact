@@ -4,21 +4,15 @@
     <meta charset="UTF-8">
     <title>Wish Sim</title>
     <link rel="stylesheet" href="wish.css">
-    <script src="wish.js" defer></script>
+    <script src="Enhanced.js" defer></script>
 </head>
 <body>
     
     <div class="cont">
     <h1><span>Splendor</span> Of Tranquil Waters</h1>
-    
-   <!-- Loading Screen -->
-<div id="loadingScreen">
-    <div id="progressContainer">
-        <progress id="loadingProgress" value="0" max="100"></progress>
-    </div>
-</div>
 
-<!-- Your Action Section (Videos) -->
+
+
 <div class="action">
     <img id="banner" src="banner.png" alt="Furina Banner">
     <video id="w1" src="3star.mp4" style="width: 100vw; height: 100vh"></video>
@@ -32,6 +26,7 @@
     <div class="btn-cont">
     <button id="wish1">Wish x1</button>
     <button id="wish10">Wish x10</button>
+    <button onclick="lockLandscape()">Start</button>
     </div>
     
     </div>
@@ -43,5 +38,6 @@
         
         </ol>
     </div> 
+    </div>
 </body>
 </html>
